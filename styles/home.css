@@ -39,6 +39,7 @@ main {
     margin: 0 auto;
     padding: 0 1rem;
     flex: 1;
+    width: 100%;
 }
 
 h1 {
@@ -81,6 +82,9 @@ h1 {
 .certificates {
     grid-column: 1/3;
     background-color: white;
+    width: 100%;
+    min-height: 400px;
+
 }
 
 .certificates h2 {
@@ -126,18 +130,24 @@ footer {
 }
 
 #courses {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 20px;
+    padding: 1.5rem;
 }
 
 #courses div {
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #555;
     border-radius: 5px;
     text-align: center;
     background-color: #ddd;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #courses .completed {
@@ -146,4 +156,21 @@ footer {
 
 #total {
     font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.certificates {
+    text-align: center;
+}
+
+.certificates button {
+    padding: 15px 30px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.total {
+    font-size: 1.5rem;
+    padding: 1.5rem;
 }

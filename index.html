@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rodrigo Hernandez">
-    <meta name="description" content="HTML page we will built during wdd231">
+    <meta name="description" content="Page that we will built during wdd231 using CSS, JavaScript and HTML">
     <title>Home page</title>
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home.large.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
-    <p>Site name</p>
     <header>
+        <img src="#" alt="Logo">
+        <h2>Site Name</h2>
         <nav>
             <a href="#">Home</a>
             <a href="#">Chamber Project</a>
@@ -28,13 +31,22 @@
                     quia velit eos corporis sed cum quisquam modi odit soluta minus esse eius, ratione necessitatibus
                     iure cumque!</p>
             </section>
+
             <section class="student">
                 <h2>Student Photo</h2>
                 <img src="images/student-picture.webp" alt="student photo">
             </section>
+
             <section class="certificates">
                 <h2>Web Certificates Courses</h2>
 
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+
+                <div id="courses"></div>
+
+                <p>Total Credits: <span id="total"></span></p>
             </section>
         </div>
     </main>
@@ -51,5 +63,4 @@
         <p id="lastModified"></p>
     </footer>
 </body>
-
 </html>

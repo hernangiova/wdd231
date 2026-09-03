@@ -17,7 +17,7 @@ body {
     flex-direction: column;
 }
 
-header {
+header nav{
     background-color: #333;
 }
 
@@ -125,17 +125,25 @@ footer {
     background-color: #ddd;
 }
 
-@media (max-width: 600px) {
-    .home {
-        grid-template-columns: 1fr;
-    }
+#courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
 
-    .certificates {
-        grid-column: 1;
-    }
+#courses div {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ddd;
+}
 
-    .student img {
-        width: 150px;
-        height: 150px;
-    }
+#courses .completed {
+    background-color: white;
+}
+
+#total {
+    font-weight: bold;
 }

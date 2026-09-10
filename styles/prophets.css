@@ -1,5 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #b1cda4;
 }
 
 h1 {
@@ -12,9 +13,14 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
 #cards {
     display: grid;
-    grid-gap: 1rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 

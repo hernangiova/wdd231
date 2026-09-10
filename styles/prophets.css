@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem 0;
+    text-shadow: 0 0 30px #111;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 1rem;
+}

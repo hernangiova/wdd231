@@ -1,0 +1,67 @@
+{
+    "chamber" : [
+        {
+            "name": "Cementos Progreso",
+            "email": "info@cempro.com",
+            "phone": "+502 2338-9100",
+            "website": "https://progreso.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbRAvfQbwkYIf9ESa3dzA56aBQxXimXOBLdaGq1Sd99n_Si4yY06zeC2k&s=10",
+            "membership": 3,
+            "description": "Company dedicated to cement and construction materials."
+        },
+        {
+            "name": "Pollo Campero",
+            "email": "servicioalcliente@campero.com",
+            "phone": "+502 2278-8000",
+            "website": "https://www.campero.com/",
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/8021e914877581.5628a153f265d.jpg",
+            "membership": 3,
+            "description": "Guatemalan restaurant specializing in chicken."
+        },
+        {
+            "name": "Ciudad Cayala",
+            "email": "cayalacotizaciones@gmail.com",
+            "phone": "+502 2493-9393",
+            "website": "https://www.cayala.com.gt/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH616QOIf0shzytCzDiukRRrj9do_d30lzzjyju-mb6GipVr0MZpERGRE1&s=10",
+            "membership": 2,
+            "description": "Commercial and lifestyle destination with shops and restaurants."
+        },
+        {
+            "name": "Castillo Hermanos",
+            "email": "info@castillohermanos.global",
+            "phone": "+502 2289-1555",
+            "website": "https://www.castillohermanos.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM5_mvf3VqS41mifjnxndlHvXHisv3gl3FDiCgjK7lndTR3wGslBR1Zg7q&s=10",
+            "membership": 2,
+            "description": "Guatemalan company with operations in beverages and consumer products."
+        },
+        {
+            "name": "Biotrash",
+            "email": "info@biotrash.com",
+            "phone": "+502 2291-2800",
+            "website": "https://www.biotrash.com/",
+            "image": "https://pbs.twimg.com/profile_images/1739674070709354496/aR63uJqN_400x400.jpg",
+            "membership": 1,
+            "description": "Company specializing in waste collection and treatment."
+        },
+        {
+            "name": "Ecoplanet Bags",
+            "email": "sales@ecoplanetbags.com",
+            "phone": "+502 3369-0099",
+            "website": "https://www.ecoplanetbags.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1SmEMfjhEvRo7QcLhaxIV9V4REQ0GPZWPCzRB747k7eMf_XUHq-C9cVT4&s=10",
+            "membership": 1,
+            "description": "Company producing reusable and sustainable bags."
+        },
+        {
+            "name": "Pollo Brujo",
+            "email": "sac@pollobrujo.com.gt",
+            "phone": "+502 2320-3400",
+            "website": "https://www.pollobrujo.com.gt/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmy-W67urTHulsNjmjBfiVcdGvL5IfhDCnIjQjlQqBSg&s",
+            "membership": 2,
+            "description": "Restaurant specializing in grilled chicken."
+        }
+    ]
+}

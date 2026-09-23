@@ -1,10 +1,9 @@
 @media screen and (min-width: 32rem) {
-
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        padding: 15px 30px;
     }
 
     nav {
@@ -16,9 +15,22 @@
 
     main {
         max-width: 1200px;
-        width: 1400px;
+        width: 100%;
         margin: 0 auto;
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .hero {
+        max-width: 1200px;
+        margin-bottom: 30px;
+    }
+
+    .hero img {
+        height: 450px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
     }
 
     .cards {
@@ -43,5 +55,43 @@
 
     .social {
         justify-content: center;
+    }
+
+    .spotlights {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #spotlights-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .spotlights h2 {
+        grid-column: 1 / -1;
+    }
+
+    .events {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    .events h2 {
+        grid-column: 1 / -1;
+        margin-bottom: 0;
+    }
+
+    .events article {
+        height: 100%;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 }

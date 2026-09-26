@@ -175,3 +175,46 @@ function displaySpotlight(members) {
 }
 
 getSpotlights();
+
+
+const modalButtons = document.querySelectorAll(".membership-card button");
+
+modalButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const modalId = button.dataset.modal;
+        const modal = document.querySelector(`#${modalId}`);
+
+        modal.showModal();
+    });
+});
+
+
+const closeButton = document.querySelectorAll(".close-modal");
+
+closeButton.forEach(button => {
+    button.addEventListener("click", () => {
+        const modal = button.closest("dialog");
+
+        modal.close();
+    });
+});
+
+const formInformation = document.querySelector("#form-information")
+
+if (formInformation) {
+    const params = new URLSearchParams(window.location.search)
+
+    const firstName = params.get("firstName");
+    const lastName = params.get("lastName");
+    const email = params.get("email");
+    const phone = params.get("phone");
+    const organization = params.get("organization");
+
+    formInformation.innerHTML = `
+        <p><strong>First Name:</strong> ${firstName}</p>
+        <p><strong>Last Name:</strong> ${lastName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Mobile Phone:</strong> ${phone}</p>
+        <p><strong>Business / Organization:</strong> ${organization}</p>
+    `;
+}

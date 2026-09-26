@@ -94,4 +94,12 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
+
+    .join-container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .membership-cards {
+        grid-template-columns: 1fr;
+    }
 }

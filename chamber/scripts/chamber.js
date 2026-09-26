@@ -176,6 +176,12 @@ function displaySpotlight(members) {
 
 getSpotlights();
 
+const timestamp = document.querySelector("#timestamp");
+
+if (timestamp) {
+    const now = new Date();
+    timestamp.value = now.toLocaleString();
+}
 
 const modalButtons = document.querySelectorAll(".membership-card button");
 

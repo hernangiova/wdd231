@@ -183,6 +183,7 @@ if (timestamp) {
     timestamp.value = now.toLocaleString();
 }
 
+
 const modalButtons = document.querySelectorAll(".membership-card button");
 
 modalButtons.forEach(button => {
@@ -215,6 +216,7 @@ if (formInformation) {
     const email = params.get("email");
     const phone = params.get("phone");
     const organization = params.get("organization");
+    const timestamp = params.get("timestamp");
 
     formInformation.innerHTML = `
         <p><strong>First Name:</strong> ${firstName}</p>
@@ -222,5 +224,6 @@ if (formInformation) {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Mobile Phone:</strong> ${phone}</p>
         <p><strong>Business / Organization:</strong> ${organization}</p>
+        <p><strong>Date and Time:</strong> ${timestamp}</p>
     `;
 }

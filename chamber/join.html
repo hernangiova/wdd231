@@ -57,7 +57,7 @@
 
                 <label>
                     Organizational Title
-                    <input type="text" name="organizationTitle" title="Enter your organization title" autocomplete="organization-title" placeholder="Example: General Manager">
+                    <input type="text" name="organizationTitle" title="Enter your organization title" autocomplete="organization-title" pattern="[A-Za-zÀ-ÿ\s-]{7,}" placeholder="Example: General Manager">
                 </label>
 
                 <label>
@@ -67,7 +67,7 @@
 
                 <label>
                     Mobile Phone
-                    <input type="tel" name="phone" title="Enter your mobile phone number" required>
+                    <input type="tel" name="phone" autocomplete="tel" title="Enter your mobile phone number" required>
                 </label>
 
                 <label>

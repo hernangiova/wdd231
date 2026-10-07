@@ -1,0 +1,9 @@
+@media screen and (min-width: 900px) {
+    .places-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        padding: 4rem 2rem;
+    }
+}

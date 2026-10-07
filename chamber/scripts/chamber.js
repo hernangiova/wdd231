@@ -1,5 +1,6 @@
 const cards = document.querySelector(".cards");
 const url = "data/members.json";
+import { places } from "./discover.mjs";
 
 async function getCompanyData() {
     const response = await fetch(url);
@@ -226,4 +227,28 @@ if (formInformation) {
         <p><strong>Business / Organization:</strong> ${organization}</p>
         <p><strong>Date and Time:</strong> ${timestamp}</p>
     `;
+}
+
+const discoverContainer = document.querySelector("#discover-container");
+
+if (discoverContainer) {
+    
+    places.forEach(place => {
+        const card = document.createElement("article");
+
+        card.classList.add("discover-card")
+
+        card.innerHTML = `
+            <h2>${place.name}</h2>
+
+            <figure>
+                <img src="${place.image}" alt="${place.name}" loading="lazy">
+            </figure> 
+
+            <address>${place.address}</address>
+            <p>${place.description}</p>
+        `;
+
+        discoverContainer.appendChild(card)
+    });
 }

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rodrigo Hernandez">
-    <meta name="description" content="Chamber of Commerce directory that will help you look up for different option of commerce in the area.">
-    <title>Directory | Guatemala Chamber of Commerce</title>
+    <meta name="description"
+        content="Discover local business, events and opportunities through Guatemala Chamber of Commerce">
+    <title>Home | Guatemala Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script type="module" src="scripts/chamber.js"></script>
@@ -18,10 +20,10 @@
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:description"
         content="You will find the best option for you within the Area to get better skills and experience">
-    <meta property="og:image"
-        content="https://hernangiova.github.io/wdd231/chamber/images/facebook-logo.png">
+    <meta property="og:image" content="https://hernangiova.github.io/wdd231/chamber/images/facebook-logo.png">
     <meta property="og:url" content="https://www.facebook.com/">
 </head>
+
 <body>
     <header>
 
@@ -29,45 +31,48 @@
             <img src="images/chamber-logo.jpg" alt="Guatemala Chamber Logo">
             <span>Guatemala Chamber of Commerce</span>
         </div>
-        
+
         <nav>
             <a href="index.html">Home</a>
             <a href="directory.html">Directory</a>
             <a href="join.html">Join</a>
-            <a href="#">Discover</a>
+            <a href="discover.html">Discover</a>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
+        <section class="discover-intro">
+            <h1>Discover Guatemala</h1>
 
-        <div class="view-buttons">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
-        
-        <div class="cards"></div>
+            <p id="visit-message"></p>
+        </section>
+
+        <section id="discover-container" class="discover-grid">
+
+        </section>
     </main>
     <footer>
         <div class="info">
-            <p>10 Rue Da La Paix</p>
-            <p>Timbuktu, Mali 999</p>
-            <p>info@timbuktucc.org</p>
-            <p>(223) 555-2300</p>
+            <p>Guatemala Chamber of Commerce</p>
+            <p>Guatemala City, Guatemala</p>
+            <p>info@guatemlacc.org</p>
+            <p>(502) 5125-2300</p>
         </div>
 
         <div class="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook logo" width="16"
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook logo"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/login/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"
+                    width="16" height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter.svg" alt="twitter logo" width="16"
                     height="16"></a>
-            <a href="https://www.linkedin.com/login/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo" width="16"
-                    height="16"></a>
-            <a href="https://x.com/" target="_blank"><img src="images/twitter.svg" alt="twitter logo" width="16" height="16"></a>
         </div>
 
         <div class="project">
             <p>WDD231 Class Project</p>
-            <p>Marie Martínez</p>
-            <p>© 20xx Timbuktu Chamber of Commerce</p>
+            <p>Rodrigo Hernandez</p>
+            <p>© 20xx Guatemala Chamber of Commerce</p>
         </div>
     </footer>
 </body>
+
 </html>

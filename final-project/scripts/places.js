@@ -121,7 +121,7 @@ async function loadWeather(id) {
 
     const [latitude, longitude] = location;
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${APIKey}&units=metric&lang=es`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${APIKey}&units=metric&lang=en`;
 
     try {
         const response = await fetch(url)
@@ -133,7 +133,7 @@ async function loadWeather(id) {
         const description = data.weather[0].description;
 
         weatherElement.textContent = `
-            🌡️ Clima: ${description} | Temperatura: ${ temperature } °C | Humedad:${humidity}%
+            🌡️ Weather: ${description} | Temperature: ${ temperature } °C | Humidity:${humidity}%
         `;
     } catch (error) {
         weatherElement.textContent = "Weather unavailable";

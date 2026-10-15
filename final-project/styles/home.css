@@ -154,6 +154,14 @@ footer {
     background-color: skyblue;
 }
 
+footer a {
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+    text-decoration: underline;
+}
+
 form {
     max-width: 600px;
     margin: 2rem auto;

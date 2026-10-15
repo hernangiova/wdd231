@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover Guatemala's beautiful destinations and get to know the traditions and culture within the country">
+    <meta name="author" content="Rodrigo Hernandez">
+    <meta property="og:title" content="Explore Guatemala">
+    <meta property="og:description" content="Discover amazing destinations and experiences in Guatemala.">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://media.istockphoto.com/id/471390160/photo/atitlan-guatemala.jpg?s=612x612&w=0&k=20&c=CcWis6HTffm28-26nwIjYmfUam8-k1Nb6mOyfRyE4Vk=">
+
+    <title> Places | Explore Guatemala</title>
+
+    <link rel="icon" href="mountain.ico">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/places.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Explore Guatemala</h1>
+
+        <button id="menu-button" class="menu-button">
+            ☰
+        </button>
+
+        <nav id="main-navigation" class="navigation">
+            <a href="index.html">Home</a>
+            <a href="places.html">Places</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Explore Guatemala</h2>
+            <p>
+                Discover beautiful places, experience local culture,
+                and explore the history of Guatemala.
+            </p>
+        </section>
+        
+        <section class="featured-places">
+            <h2>All Destinations</h2>
+            <div id="places-container" class="places-container">
+                <p>Loading destinations...</p>
+            </div>
+        </section>
+
+        <dialog id="place-dialog">
+            <button id="close-dialog" type="button">❌</button>
+            <div id="dialog-content"></div>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>©️ 2026 Explore Guatemala | Rodrigo Hernandez </p>
+        <a href="attributions.html">Attributions for this Website</a>
+    </footer>
+</body>
+
+</html>

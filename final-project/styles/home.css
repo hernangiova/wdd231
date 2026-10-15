@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
-
+ 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -17,25 +20,46 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.5rem;
 }
 
 nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+nav.open {
     display: flex;
-    gap: 1.5rem;
 }
 
 nav a {
     color: black;
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+.menu-button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
+    flex: 1;
 }
 
 .hero {
@@ -61,6 +85,7 @@ main {
 
 .featured-places {
     padding: 2rem 1rem;
+    text-align: center;
 }
 
 .featured-places h2 {
@@ -71,35 +96,51 @@ main {
 .places-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem
+    gap: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
 }
 
-article {
+.place-card {
+    border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
+    background-color: white;
+    text-align: center;
 }
 
-article img {
+.place-card img {
+    display: block;
     width: 100%;
+    height: 220px;
     object-fit: cover;
 }
 
-article h3 {
-    padding: 1rem 1rem 1rem;
+.place-card h3 {
+    padding: 1rem 1rem 0.5rem;
 }
 
-article p {
+.place-card p {
     padding: 0 1rem 1rem;
 }
 
-article a {
+.place-card a {
     display: inline-block;
-    margin: 0 1rem 1.5rem;
+    margin: 0 1rem 1rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
     background-color: skyblue;
     color: black;
-    border-radius: 5px;
+}
+
+.primary-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: skyblue;
+    color: black;
+    border-radius: 10px;
 }
 
 footer {
@@ -107,4 +148,107 @@ footer {
     text-align: center;
     padding: 1.5rem;
     background-color: skyblue;
+}
+
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font: inherit;
+    margin-bottom: 1rem;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.details-button {
+    margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#place-dialog {
+    width: 90%;
+    max-width: 500px;
+    max-height: 85vh;
+    margin: auto;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+#place-dialog::backdrop {
+    background-color: #999;
+    opacity: 0.3;
+}
+
+#close-dialog {
+    display: block;
+    margin-left: auto;
+    padding: 0.5rem 0.5rem;
+}
+
+#dialog-content img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.favorite-button {
+    margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.why-visit {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.why-visit h2 {
+    margin-bottom: 25px;
+}
+
+.benefits-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-card h3 {
+    margin-top: 0;
 }

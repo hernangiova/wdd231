@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Antigua Guatemala",
+        "department": "Sacatepéquez",
+        "category": "Culture",
+        "description": "Discover the colonial streets, colorful buildings, historic churches, and beautiful views of the volcanoes surrounding Antigua Guatemala.",
+        "image": "https://cdn.sanity.io/images/mkg24y51/production/e19ddd22e936d416a8ee0198f08d7eb210931d12-1200x800.webp/guatemala.webp?w=1536&auto=format",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Lake Atitlan",
+        "department": "Sololá",
+        "category": "Nature",
+        "description": "Enjoy one of Guatemala's most beautiful lakes, surrounded by volcanoes, traditional Mayan villages, and breathtaking mountain scenery.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4eFWTm9duXMtVJynhOrMNDU9j9o7TMH8vkffTsYe2OmkL8xM-wvqq_Br&s=10",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "name": "Tikal National Park",
+        "department": "Petén",
+        "category": "History",
+        "description": "Explore the ancient Mayan city of Tikal, famous for its impressive pyramids, archaeological ruins, and wildlife in the tropical rainforest.",
+        "image": "https://www.guatemala.com/fotos/2025/07/Parque-Nacional-Tikal.webp",
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "Semuc Champey",
+        "department": "Alta Verapaz",
+        "category": "Nature",
+        "description": "Visit the turquoise natural pools formed over a limestone bridge and enjoy the lush forests and rivers of this spectacular destination.",
+        "image": "https://static-dm.barcelo.com/is/image/barcelo/semuc-champey-guatemala-estanques?&&fmt=webp-alpha&qlt=75&wid=1200&fit=crop,1",
+        "featured": true
+    },
+    {
+        "id": 5,
+        "name": "Acatenango Volcano",
+        "department": "Chimaltenango",
+        "category": "Adventure",
+        "description": "Challenge yourself with a volcano hike and enjoy incredible views of the surrounding mountains and the nearby Fuego Volcano.",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/11/6b/a7/c8.jpg",
+        "featured": true
+    },
+    {
+        "id": 6,
+        "name": "Rio Dulce",
+        "department": "Izabal",
+        "category": "Nature",
+        "description": "Travel along a beautiful river surrounded by tropical vegetation, peaceful waterways, and rich wildlife in eastern Guatemala.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGmqgQIOCXFpt0yqquEUFXvq2Mj-swzw0zbf9hf6WhrdCIBi0Gi-xxNdd&s=10",
+        "featured": false
+    },
+    {
+        "id": 7,
+        "name": "Livingston",
+        "department": "Izabal",
+        "category": "Culture",
+        "description": "Experience Garifuna culture, Caribbean cuisine, lively music, and a unique coastal atmosphere on Guatemala's Caribbean side.",
+        "image": "https://visitguatemala.gt/wp-content/uploads/bienvenidos-livingston-.webp",
+        "featured": false
+    },
+    {
+        "id": 8,
+        "name": "Chichicastenango",
+        "department": "Quiché",
+        "category": "Culture",
+        "description": "Explore the famous traditional market, colorful textiles, handmade crafts, and cultural traditions of this highland town.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCjpo9wdPmg4hsvTMp_Tw9mULrarJx4ZQotkgQCUTGA&s=10",
+        "featured": false
+    },
+    {
+        "id": 9,
+        "name": "Pacaya Volcano",
+        "department": "Escuintla",
+        "category": "Adventure",
+        "description": "Enjoy an accessible volcano adventure with impressive volcanic landscapes, rocky trails, and views of the surrounding countryside.",
+        "image": "https://cdn.audleytravel.com/3152/2248/79/16017093-pacaya-volcano-guatemala.jpg",
+        "featured": false
+    },
+    {
+        "id": 10,
+        "name": "Flores",
+        "department": "Petén",
+        "category": "Culture",
+        "description": "Walk through colorful streets beside Lake Petén Itzá, admire the waterfront views, and discover the history of this charming island town.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Flores_Island.jpg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
+        "featured": false
+    },
+    {
+        "id": 11,
+        "name": "Monterrico",
+        "department": "Santa Rosa",
+        "category": "Beach",
+        "description": "Relax on volcanic black-sand beaches, watch beautiful sunsets, and learn about local sea turtle conservation efforts.",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486168197.jpg?k=f6ef583459dc22cc5a30a3c2c8ab617c5ccc074a6ab024aa8a20264c2b20312b&o=",
+        "featured": false
+    },
+    {
+        "id": 12,
+        "name": "Yaxha National Park",
+        "department": "Petén",
+        "category": "History",
+        "description": "Discover an ancient Mayan archaeological site surrounded by rainforest, with temple ruins and memorable views over Lake Yaxhá.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Yaxha_von_oben.jpg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
+        "featured": false
+    },
+    {
+        "id": 13,
+        "name": "Quetzaltenango",
+        "department": "Quetzaltenango",
+        "category": "Culture",
+        "description": "Discover Guatemala's western highlands, historic architecture, local markets, traditional food, and nearby mountain landscapes.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWYoyHWZu7GT1_WCzM93Y_D14FE2wFSPEXrH6T2GphQ&s=10",
+        "featured": false
+    },
+    {
+        "id": 14,
+        "name": "Todos Santos Cuchumatán",
+        "department": "Huehuetenango",
+        "category": "Culture",
+        "description": "Learn about the distinctive Mam Maya traditions, traditional clothing, and mountain scenery of this highland community.",
+        "image": "https://www.guatemala.com/wp-content/uploads/2023/11/Parque-Regional-Municipal-Todos-Santos-Cuchumatan-en-Huehuetenango-400x200.jpg",
+        "featured": false
+    },
+    {
+        "id": 15,
+        "name": "Iximche",
+        "department": "Chimaltenango",
+        "category": "History",
+        "description": "Visit the archaeological remains of an important Kaqchikel Maya capital and learn about Guatemala's pre-Columbian history.",
+        "image": "https://www.guatemala.com/fotos/2025/09/iximche-2.webp",
+        "featured": false
+    }
+]

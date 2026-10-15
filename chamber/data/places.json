@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Ciudad Cayalá",
+        "address": "Boulevard Rafael Landívar, Zona 16, Guatemala City",
+        "description": "Explore this modern outdoor destination with restaurants, shops, entertainment, and beautiful architecture.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA_1aSyULnkZWfTNAIjt6jAKpCzGWCMzDf5JOgxZHjhRCVoSaeDK8jZqA&s=10",
+        "alt": "Outdoor streets and architecture of Ciudad Cayalá"
+    },
+    {
+        "name": "Kaminaljuyú",
+        "address": "Calzada San Juan, Zona 7, Guatemala City",
+        "description": "Discover an important archaeological site connected to the ancient Maya civilization.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWlxPN55b9I8T2Nb1oA4cS3k06habn-5Cdo9Qp2mQ4I9EEMuGG643QghUt&s=10",
+        "alt": "Archaeological remains at Kaminaljuyú"
+    },
+    {
+        "name": "La Aurora Zoo",
+        "address": "5a Calle, Zona 13, Guatemala City",
+        "description": "Visit a popular zoo featuring animals from Guatemala and other parts of the world.",
+        "image": "https://www.guatemala.com/fotos/2024/12/Noches-de-Luna-2025-en-Zoologico-La-Aurora-885x500.jpg",
+        "alt": "Animals and grounds at La Aurora Zoo"
+    },
+    {
+        "name": "Museo Miraflores",
+        "address": "7a Calle 21-55, Zona 11, Guatemala City",
+        "description": "Learn about the history and culture of the ancient Maya people who lived in the region.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_u4xKeboQLoEYp3R98KS4_b8EKrT17-iv-9qEvDrif_x0dSJ5kZ2KTpE&s=10",
+        "alt": "Museo Miraflores and its cultural exhibits"
+    },
+    {
+        "name": "Mapa en Relieve",
+        "address": "Avenida Simeón Cañas, Zona 2, Guatemala City",
+        "description": "See a three-dimensional map representing Guatemala's mountains, rivers, lakes, and cities.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbYdnJ_be82TBzy71Luh4fbxOi4N1uVgrWtXT3PAcJBOhPt2DLshE0Jdk&s=10",
+        "alt": "Three-dimensional relief map of Guatemala"
+    },
+    {
+        "name": "National Palace of Culture",
+        "address": "6a Calle, Zona 1, Guatemala City",
+        "description": "Explore an important historic building in the heart of Guatemala City.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHfKQTb5QurxcuCwIhB53YwEkyrlPdSnHQN0AdiHiFDw&s=10",
+        "alt": "Exterior of the National Palace of Culture"
+    },
+    {
+        "name": "Central Market",
+        "address": "8a Calle, Zona 1, Guatemala City",
+        "description": "Experience local food, crafts, clothing, and Guatemalan culture at this traditional market.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyWvtxUv7fZ5G2cf6RYKpydx_IgLC1mSFk0lVJgVA9g&s=10",
+        "alt": "Stalls and local crafts at the Central Market"
+    },
+    {
+        "name": "Antigua Guatemala",
+        "address": "Antigua Guatemala, Sacatepéquez",
+        "description": "Discover colonial architecture, cobblestone streets, historic churches, and volcano views.",
+        "image": "https://cdn.sanity.io/images/mkg24y51/production/e19ddd22e936d416a8ee0198f08d7eb210931d12-1200x800.webp/guatemala.webp?w=1536&auto=format",
+        "alt": "Historic colonial architecture in Antigua Guatemala"
+    }
+]

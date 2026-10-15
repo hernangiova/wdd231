@@ -1,6 +1,5 @@
 const cards = document.querySelector(".cards");
 const url = "data/members.json";
-import { places } from "./discover.mjs";
 
 async function getCompanyData() {
     const response = await fetch(url);
@@ -231,24 +230,81 @@ if (formInformation) {
 
 const discoverContainer = document.querySelector("#discover-container");
 
-if (discoverContainer) {
-    
-    places.forEach(place => {
-        const card = document.createElement("article");
+async function getPlaces() {
+    if (!discoverContainer) {
+        return;
+    }
 
-        card.classList.add("discover-card")
+    try {
+        const response = await fetch("data/places.json");
+
+        if (!response.ok) {
+            throw new Error("Could not load places.json");
+        }
+
+        const places = await response.json();
+
+        displayPlaces(places);
+
+    } catch (error) {
+        console.error("Error loading places:", error);
+    }
+}
+
+function displayPlaces(places) {
+    discoverContainer.innerHTML = "";
+
+    places.forEach((place, index) => {
+        const card = document.createElement("article");
+        card.classList.add("discover-card", `place-${index + 1}`);
 
         card.innerHTML = `
             <h2>${place.name}</h2>
-
             <figure>
-                <img src="${place.image}" alt="${place.name}" loading="lazy">
-            </figure> 
-
+                <img
+                    src="${place.image}"
+                    alt="${place.alt}"
+                    width="400"
+                    height="250"
+                    loading="lazy"
+                >
+            </figure>
             <address>${place.address}</address>
             <p>${place.description}</p>
         `;
 
-        discoverContainer.appendChild(card)
+        discoverContainer.appendChild(card);
     });
+}
+
+getPlaces();
+
+const visitMessage = document.querySelector("#visit-message");
+
+if (visitMessage) {
+    const lastVisit = localStorage.getItem("lastVisit");
+    const currentVisit = Date.now();
+
+    if (lastVisit === null) {
+        visitMessage.textContent =
+            "Welcome! Let us know if you have any questions about Guatemala.";
+    } else {
+        const timeDifference = currentVisit - Number(lastVisit);
+        const daysDifference = Math.floor(
+            timeDifference / (1000 * 60 * 60 * 24)
+        );
+
+        if (daysDifference < 1) {
+            visitMessage.textContent =
+                "Welcome back! You visited us less than a day ago.";
+        } else if (daysDifference === 1) {
+            visitMessage.textContent =
+                "Welcome back! Your last visit was 1 day ago.";
+        } else {
+            visitMessage.textContent =
+                `Welcome back! Your last visit was ${daysDifference} days ago.`;
+        }
+    }
+
+    localStorage.setItem("lastVisit", currentVisit);
 }
